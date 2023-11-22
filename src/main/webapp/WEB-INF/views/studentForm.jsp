@@ -12,14 +12,14 @@
 <body>
 <div class="container">
   <div class="col-md-offset-1 col-md-10">
-    <h3 class="test-center">Spring Data JPA Project 1</h3>
-    <br />
+    <h3 class="test-center">Spring Mybatis with JSP Project III</h3>
+    <br/>
     <div>
-      <div class = "text-center">
+      <div class="text-center">
         <div class="panel-padding">
           <div class="fs-4">학생 정보 등록</div>
         </div>
-        <div class ="panel-body">
+        <div class="panel-body">
           <form:form action="saveStudent" cssClass="horizental" method="post" modelAttribute="student">
             <div class="form-group">
               <form:hidden path="id"/>
@@ -36,7 +36,7 @@
                 <form:input path="address" class="form-control"/>
               </div>
             </div>
-            <br />
+            <br/>
             <div>
               <form:button class="btn btn-primary">등록</form:button>
             </div>
@@ -46,8 +46,8 @@
     </div>
   </div>
 </div>
-<br />
-<br />
+<br/>
+<br/>
 <div class="footer">
   <p>🏫Semyung University</p>
 </div>

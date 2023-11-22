@@ -12,7 +12,7 @@
 <body>
 <div class="container">
   <div class="col-md-offset-1 col-md-10">
-    <h3 class="test-center">Spring Data JPA Project 1</h3>
+    <h3 class="test-center">Spring Mybatis with JSP Project III</h3>
     <br />
     <div>
       <div class = "text-center">
@@ -20,7 +20,7 @@
           <div class="fs-4">학생 정보 수정</div>
         </div>
         <div class ="panel-body">
-          <form:form action="saveStudent" cssClass="horizental" method="post" modelAttribute="student">
+          <form:form action="updateStudent" cssClass="horizental" method="post" modelAttribute="student">
             <div class="form-group">
               <form:hidden path="id"/>
               <label for="name" class="col-md-3">이름</label>

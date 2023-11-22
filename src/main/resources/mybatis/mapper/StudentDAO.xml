@@ -9,7 +9,7 @@
     </select>
     <!--    [2] 개인 학생 조회-->
     <select id="getStudent" resultType="com.ict01.jpaproject03.dto.StudentDTO">
-        SELECT id, name, email, address, FROM student WHERE id=#{param1}
+        SELECT id, name, email, address FROM student WHERE id=#{param1}
     </select>
     <!--    [3] 학생 등록 조회-->
     <insert id="saveStudent">

@@ -62,7 +62,7 @@ public class StudentController {
 
     //[3] 학생정보 수정
     // (3-1) 학생정보 수정 Form
-    @GetMapping("/updateForm")
+    @GetMapping("updateForm")
     public String updateForm(@RequestParam("studentId") int id, Model model) {
         StudentDTO studentDTO = studentDAO.getStudent(id);
         model.addAttribute("student", studentDTO);
